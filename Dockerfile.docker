@@ -1,6 +1,6 @@
 FROM python:3.9.7-slim-buster
 #Set the working directory to /sample-flask-app
-WORKDIR /sample-flask-app
+WORKDIR /flaskdocker
 #Copy the Code from the source to the images' code directory
 COPY . .
 #Install dependencies
